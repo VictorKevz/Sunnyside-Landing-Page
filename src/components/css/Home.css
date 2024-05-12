@@ -1,0 +1,23 @@
+.home-container{
+    height: 800px;
+    width: 100%;
+    background-color: hsl(210, 4%, 67%);
+    background-image: url("../../assets/images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom; 
+    
+}
+.home-intro{
+    text-align: center;
+}
+.home-intro>img{
+    margin-top: 11rem;
+}
+@media (max-width:1100px) {
+    .home-container{
+        background-image: url("../../assets/images/mobile/image-header.jpg");
+        width: 100%;
+
+    }
+}

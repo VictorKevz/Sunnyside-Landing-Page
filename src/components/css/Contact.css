@@ -1,0 +1,42 @@
+.contact-wrapper{
+    width: 100%;
+    max-height: 350px;
+    background-color: rgb(159, 210, 197);
+    color: hsl(168, 34%, 41%);
+    padding: 6.9rem 0;
+    text-align: center;
+}
+.contact-wrapper>img{
+    fill: hsl(168, 34%, 41%);
+    margin-block: 0 4.2rem;
+    width: 17.6rem;
+    
+}
+.contact-list{
+    display: flex;
+
+}
+.contact-list {
+    display: flex;
+    text-align: center!important;
+    justify-content: center;
+
+
+}
+.contact-list a {
+    font-weight: 500;
+    margin-bottom: 7.5rem;
+}
+.contact-list>a:not(:last-child){
+    margin-right: 5.5rem;
+
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links>img:not(:last-child){
+    margin-right: 2.7rem;
+
+}
